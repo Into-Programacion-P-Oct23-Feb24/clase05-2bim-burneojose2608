@@ -15,19 +15,24 @@ public class Ejemplo06 {
         // [0][0]
         // [1][1]
         // hasta el final
-        
+        // en el primerr for estamos haciendo que el for recorra por todos los arreglos y se guarda
+        // en obtener suma y de ahi s e presenta 
         for (int i = 0; i < valor1.length; i++) {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        /*
+        en este for se deeclara las variables de tipo entero y depediendo de la posicion luego se va hacer la suma
+        */
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        /*
+        en este for se declara otra variable mas de tipo entero y se realiza la suma  y de ahi se la presenta
+        */
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];

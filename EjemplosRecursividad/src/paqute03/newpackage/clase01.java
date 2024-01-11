@@ -9,5 +9,10 @@ package paqute03.newpackage;
  * @author USUARIO
  */
 public class clase01 {
-    
+    public static void main(String[] args) {   
+    }
+    public static String [][] obtnerCadena(){
+        String [][] cadena = {{"loja", "cuenca","quito"}, {"Guayaquil", "Zamora","Machala"}};
+     return cadena;   
+    }
 }
